@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.toggle{
+   display: none;
+}
+.opennev
+{
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+ 
+
+ .navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: inline-flex;
+    height: 5vw;
+ }
+ .log{
+   
+    width: 60vw;
+     
+    
+     
+    margin: auto;
+
+}
+.sidenav {
+  /* height: 100%;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+*/
+
+   height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+} 
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  
+  color: red;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.list{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 5vw;
+    display: inline-flex;
+}
+.list ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+    padding: 10px;
+    color: white;
+}
+.d{
+    padding-left: 22vw;
+    font-size: 1.6em;
+}
+.i{
+    font-size: 1em;
+}
+
+
+ .all{
+    height: 683px;
+    width: 100%;
+    
+    
+ }
+
+.xr{
+  
+    color: white;
+    margin-top: -14vw;
+    margin-left: 20vw;
+    font-size: 3vw;
+    font-family: Montserrat, "Noto Sans TC", sans-serif;
+}
+.xr button{
+    font-size: 11px;
+    background-color: #4bd6b8;
+    color: white;
+    border: none;
+    width: 7vw;
+    height: 26px;
+    border-radius: 20vw;
+    font-family: "Google Sans", Arial, sans-serif;
+    margin-left: 26vw;
+}
+
+
+ .flex-method{
+     line-height: 12px;
+     display: flex;
+     justify-content: center;
+     height: 25vw;
+
+ 
+  
+ }
+ .mg{
+    
+     width: 28vw;
+ 
+
+     
+ }
+ .mg p{
+    font-family: Montserrat, "Noto Sans TC", sans-serif;
+    font-size: 16px;
+ 
+
+    text-align: center;
+
+    letter-spacing: 0.5px;
+    padding-top: 6vw;
+
+}
+.txt{
+    font-family: Montserrat, "Noto Sans TC", sans-serif;
+    
+   font-size: 0.8em;
+    text-align: center;
+    color: #9b9b9b ;
+
+
+      
+    padding-top: 1vw;
+    
+    
+}
+
+
+ 
+.mg img{
+    padding-top: 2vw;
+   
+    
+
+
+}
+ .vive{
+    padding-top: 12vw;
+ }
+
+  .fot{
+    gap: 10rem;
+    display: inline-flex;
+    width: 100%;
+    height: 27vh;
+    margin-top: 8vw;
+    background-color: #ffffff;
+  }
+   
+
+  .end{
+    padding-top:2rem ;
+    padding-left: 11vw;
+     
+     
+
+
+  }
+  .end ul{
+     
+    list-style: none;
+  }
+  .fa-globe{
+
+    padding-top:2rem ;  
+  }
+
+
+
+  .emty-text{
+     
+    display: flex;
+    gap: 8vw;
+    
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 2vw;
+     
+  }
+  .emty-text ul{
+    list-style: none;
+  }
+  .hed{
+    font-family: Montserrat, "Noto Sans TC", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    color: #4a4a4a;
+  }
+  .text{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+  }
+  .close{
+    margin-left: 67vw;
+    margin-top: 3vw;
+  }
+  .close p{
+    padding-bottom: 1rem                                                ;
+    margin-top: 7vw;
+    color: #9b9b9b;
+    font-family: sans-serif;
+    font-size: 1rem;
+  }
+  .close span{
+    color: black;
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+  .dash{
+    display: none;
+  }
+  .legal{
+    display: none;
+  }
+  .sidebar{
+    display: none;
+  }
+   
+
+  
+  
